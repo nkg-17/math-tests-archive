@@ -1,42 +1,21 @@
 
 ## Формат задачи
-**description.json:**
-```json
-{
-    "title": "",
-    "tags": [ "" ],
-
-    "problem": {
-        "text": "",
-        "answer": ""
-    },
-
-    "tips": [ "" ],
-
-    "solution": {
-        "text": "",
-        "answer": ""
-    }
-}
-```
-**Необязательные поля:**
-- `tags`
-- `problem.answer` - Плейсхолдер в поле ответа
-- `solution.answer` - Запятые меняются на точки автоматически
-
+**[Актуальный формат](https://github.com/nkg-17/math-tests)**
 
 ## Структура репозитория
 ```
 root/
     tests/
-        <test-ID: int>/
+        <ID>/
             description.json
-            problem-picture.png
-        <test-ID: int>/
+            problem.png
+        <ID>/
             description.json
-            problem-picture.png
-            solution-picture.png
+            problem.png
+            solution.png
+            tip-1.png
+            tip-2.png
         ...
     README.md
 ```
-- `test-ID` - Неповторяющееся число или строка
+- `ID` - Неповторяющийся номер теста (строка или число).
