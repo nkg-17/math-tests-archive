@@ -10,14 +10,14 @@ tests/
         (текст решения) 
         solution.md
 
-        (картинка для предпросмотра) 
-        preview.(png, jpg, svg, webp, ...)
+        (картинка для предпросмотра, без расширения файла) 
+        preview
 
         (Другие изображения, на которые ссылаются problem.md и solution.md)
     <ID>/
         problem.md
         solution.md
-        preview.png
+        preview
     ...
 README.md
 ```
@@ -30,11 +30,11 @@ README.md
 > **NOTE**  
 > Все ссылки на изображения после обработки будут начинаться с 
 > `https://raw.githubusercontent.com/nkg-17/math-tests-archive/main/tests/<ID>/`.
-> Из за этого можно просто писать `![](preview.png)`, не задумываясь о полном URL 
+> Из за этого можно просто писать `![](preview)`, не задумываясь о полном URL 
 > файла.
 > 
 > Так, например, ссылка на `preview.jpg` теста `1` будет выглядеть так: 
-> `https://raw.githubusercontent.com/nkg-17/math-tests-archive/main/tests/1/preview.jpg`. 
+> `https://raw.githubusercontent.com/nkg-17/math-tests-archive/main/tests/1/preview`. 
 > 
 > Поэтому все изображения, на которые есть ссылки в тексте задачи, должны быть
 > скопированы в папку теста (`tests/<ID теста>`).
