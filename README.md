@@ -11,13 +11,13 @@ tests/
         solution.md
 
         (картинка для предпросмотра, без расширения файла) 
-        preview
+        preview.svg
 
         (Другие изображения, на которые ссылаются problem.md и solution.md)
     <ID>/
         problem.md
         solution.md
-        preview
+        preview.svg
     ...
 README.md
 ```
@@ -30,4 +30,4 @@ README.md
 > **Note**  
 > Все ссылки на изображения должны 
 > находиться в одной папке с текстом задачи и
-> содержать лишь имя файла, например `![](preview)`.
+> содержать лишь имя файла, например `![](preview.svg)`.
